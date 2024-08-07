@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import EPGGrid from './EPGGrid';
+import dayjs from 'dayjs';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [epgData, setEpgData] = useState([]);
+
+    useEffect(() => {
+        fetch('/epg.xml')
+            .then(response => response.text())
+            .then(data => {
+                const parser = new DOMParser();
+                const xml = parser.parseFromString(data, 'text/xml');
+                const programs = Array.from(xml.getElementsByTagName('programme')).map(program => ({
+                    title: program.getElementsByTagName('title')[0].textContent,
+                    startTime: program.getAttribute('start'),
+                    endTime: program.getAttribute('stop'),
+                    channel: program.getAttribute('channel')
+                }));
+
+                const groupedByDate = programs.reduce((acc, program) => {
+                    const date = dayjs(program.startTime.substring(0, 8)).format('YYYY-MM-DD');
+                    if (!acc[date]) {
+                        acc[date] = [];
+                    }
+                    acc[date].push(program);
+                    return acc;
+                }, {});
+
+                setEpgData(groupedByDate);
+            });
+    }, []);
+
+    return <EPGGrid data={epgData} />;
 }
 
 export default App;

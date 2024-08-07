@@ -1,0 +1,33 @@
+EPGGrid.js:50 Parsed Date: 20230806120000 +0000 -> Sun Aug 06 2023 05:00:00 GMT-0700 (Yukon Time)
+EPGGrid.js:50 Parsed Date: 20230806130000 +0000 -> Sun Aug 06 2023 06:00:00 GMT-0700 (Yukon Time)
+EPGGrid.js:97 Program: Morning News
+EPGGrid.js:98 Start Time (UTC): Sun Aug 06 2023 05:00:00 GMT-0700 (Yukon Time)
+EPGGrid.js:99 End Time (UTC): Sun Aug 06 2023 06:00:00 GMT-0700 (Yukon Time)
+EPGGrid.js:100 Start Time (Vancouver): 05:00
+EPGGrid.js:101 End Time (Vancouver): 06:00
+EPGGrid.js:102 Duration in Minutes: 60
+EPGGrid.js:103 Duration in Slots: 2
+EPGGrid.js:104 Start Slot Index: 10
+EPGGrid.js:105 Left Offset: 800px
+EPGGrid.js:50 Parsed Date: 20230806130000 +0000 -> Sun Aug 06 2023 06:00:00 GMT-0700 (Yukon Time)
+EPGGrid.js:50 Parsed Date: 20230806140000 +0000 -> Sun Aug 06 2023 07:00:00 GMT-0700 (Yukon Time)
+EPGGrid.js:97 Program: Daily Talk Show
+EPGGrid.js:98 Start Time (UTC): Sun Aug 06 2023 06:00:00 GMT-0700 (Yukon Time)
+EPGGrid.js:99 End Time (UTC): Sun Aug 06 2023 07:00:00 GMT-0700 (Yukon Time)
+EPGGrid.js:100 Start Time (Vancouver): 06:00
+EPGGrid.js:101 End Time (Vancouver): 07:00
+EPGGrid.js:102 Duration in Minutes: 60
+EPGGrid.js:103 Duration in Slots: 2
+EPGGrid.js:104 Start Slot Index: 12
+EPGGrid.js:105 Left Offset: 920px
+EPGGrid.js:50 Parsed Date: 20230806140000 +0000 -> Sun Aug 06 2023 07:00:00 GMT-0700 (Yukon Time)
+EPGGrid.js:50 Parsed Date: 20230806150000 +0000 -> Sun Aug 06 2023 08:00:00 GMT-0700 (Yukon Time)
+EPGGrid.js:97 Program: Cooking Show
+EPGGrid.js:98 Start Time (UTC): Sun Aug 06 2023 07:00:00 GMT-0700 (Yukon Time)
+EPGGrid.js:99 End Time (UTC): Sun Aug 06 2023 08:00:00 GMT-0700 (Yukon Time)
+EPGGrid.js:100 Start Time (Vancouver): 07:00
+EPGGrid.js:101 End Time (Vancouver): 08:00
+EPGGrid.js:102 Duration in Minutes: 60
+EPGGrid.js:103 Duration in Slots: 2
+EPGGrid.js:104 Start Slot Index: 14
+EPGGrid.js:105 Left Offset: 1040px

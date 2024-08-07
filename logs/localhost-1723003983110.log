@@ -1,0 +1,48 @@
+timezone.js:1 Uncaught RangeError: Invalid time value
+    at DateTimeFormat.formatToParts (<anonymous>)
+    at a (timezone.js:1:1)
+    at u (timezone.js:1:1)
+    at timezone.js:1:1
+    at o.tz (timezone.js:1:1)
+    at EPGGrid.js:65:1
+    at Array.map (<anonymous>)
+    at EPGGrid.js:63:1
+    at Array.map (<anonymous>)
+    at EPGGrid (EPGGrid.js:54:1)
+timezone.js:1 Uncaught RangeError: Invalid time value
+    at DateTimeFormat.formatToParts (<anonymous>)
+    at a (timezone.js:1:1)
+    at u (timezone.js:1:1)
+    at timezone.js:1:1
+    at o.tz (timezone.js:1:1)
+    at EPGGrid.js:65:1
+    at Array.map (<anonymous>)
+    at EPGGrid.js:63:1
+    at Array.map (<anonymous>)
+    at EPGGrid (EPGGrid.js:54:1)
+react-dom.development.js:18704 The above error occurred in the <EPGGrid> component:
+
+    at EPGGrid (http://localhost:3000/static/js/bundle.js:157:3)
+    at App (http://localhost:3000/static/js/bundle.js:32:80)
+    at DefaultPropsProvider (http://localhost:3000/static/js/bundle.js:6535:3)
+    at RtlProvider (http://localhost:3000/static/js/bundle.js:6680:7)
+    at ThemeProvider (http://localhost:3000/static/js/bundle.js:5574:5)
+    at ThemeProvider (http://localhost:3000/static/js/bundle.js:6766:5)
+    at ThemeProvider (http://localhost:3000/static/js/bundle.js:4557:14)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+logCapturedError @ react-dom.development.js:18704
+Show 1 more frame
+Show less
+react-dom.development.js:26962 Uncaught RangeError: Invalid time value
+    at DateTimeFormat.formatToParts (<anonymous>)
+    at a (timezone.js:1:1)
+    at u (timezone.js:1:1)
+    at timezone.js:1:1
+    at o.tz (timezone.js:1:1)
+    at EPGGrid.js:65:1
+    at Array.map (<anonymous>)
+    at EPGGrid.js:63:1
+    at Array.map (<anonymous>)
+    at EPGGrid (EPGGrid.js:54:1)
