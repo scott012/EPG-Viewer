@@ -1,0 +1,1000 @@
+ Program: Object
+ Start Time: 2024-08-06 23:34
+ End Time: 2024-08-07 00:37
+ Left Offset: -9808
+ Program: Object
+ Start Time: 2024-08-07 23:34
+ End Time: 2024-08-08 00:37
+ Left Offset: 1712
+ Program: Object
+ Start Time: 2024-08-08 23:34
+ End Time: 2024-08-09 00:37
+ Left Offset: 13232
+ Program: Object
+ Start Time: 2024-08-09 23:34
+ End Time: 2024-08-10 00:37
+ Left Offset: 24752
+ Program: Object
+ Start Time: 2024-08-05 20:34
+ End Time: 2024-08-05 21:36
+ Left Offset: -22768
+ Program: Object
+ Start Time: 2024-08-06 20:34
+ End Time: 2024-08-06 21:36
+ Left Offset: -11248
+ Program: Object
+ Start Time: 2024-08-07 20:34
+ End Time: 2024-08-07 21:36
+ Left Offset: 272
+ Program: Object
+ Start Time: 2024-08-08 20:34
+ End Time: 2024-08-08 21:36
+ Left Offset: 11792
+ Program: Object
+ Start Time: 2024-08-09 20:34
+ End Time: 2024-08-09 21:37
+ Left Offset: 23312
+ Program: Object
+ Start Time: 2024-08-09 19:15
+ End Time: 2024-08-09 20:05
+ Left Offset: 22680
+ Program: Object
+ Start Time: 2024-08-09 20:05
+ End Time: 2024-08-09 21:00
+ Left Offset: 23080
+ Program: Object
+ Start Time: 2024-08-09 16:15
+ End Time: 2024-08-09 17:05
+ Left Offset: 21240
+ Program: Object
+ Start Time: 2024-08-09 17:05
+ End Time: 2024-08-09 18:00
+ Left Offset: 21640
+ Program: Object
+ Start Time: 2024-08-05 19:33
+ End Time: 2024-08-05 20:01
+ Left Offset: -23256
+ Program: Object
+ Start Time: 2024-08-06 19:33
+ End Time: 2024-08-06 20:01
+ Left Offset: -11736
+ Program: Object
+ Start Time: 2024-08-05 17:15
+ End Time: 2024-08-05 20:17
+ Left Offset: -24360
+ Program: Object
+ Start Time: 2024-08-05 20:17
+ End Time: 2024-08-05 23:34
+ Left Offset: -22904
+ Program: Object
+ Start Time: 2024-08-06 10:59
+ End Time: 2024-08-06 13:57
+ Left Offset: -15848
+ Program: Object
+ Start Time: 2024-08-06 13:57
+ End Time: 2024-08-06 17:00
+ Left Offset: -14424
+ Program: Object
+ Start Time: 2024-08-06 22:06
+ End Time: 2024-08-07 01:02
+ Left Offset: -10512
+ Program: Object
+ Start Time: 2024-08-05 17:15
+ End Time: 2024-08-05 20:17
+ Left Offset: -24360
+ Program: Object
+ Start Time: 2024-08-05 20:17
+ End Time: 2024-08-05 23:34
+ Left Offset: -22904
+ Program: Object
+ Start Time: 2024-08-06 10:59
+ End Time: 2024-08-06 13:57
+ Left Offset: -15848
+ Program: Object
+ Start Time: 2024-08-06 13:57
+ End Time: 2024-08-06 17:00
+ Left Offset: -14424
+ Program: Object
+ Start Time: 2024-08-06 22:06
+ End Time: 2024-08-07 01:02
+ Left Offset: -10512
+ Program: Object
+ Start Time: 2024-08-05 20:15
+ End Time: 2024-08-05 23:17
+ Left Offset: -22920
+ Program: Object
+ Start Time: 2024-08-05 23:17
+ End Time: 2024-08-06 02:34
+ Left Offset: -21464
+ Program: Object
+ Start Time: 2024-08-06 13:59
+ End Time: 2024-08-06 16:57
+ Left Offset: -14408
+ Program: Object
+ Start Time: 2024-08-06 16:57
+ End Time: 2024-08-06 20:00
+ Left Offset: -12984
+ Program: Object
+ Start Time: 2024-08-07 01:06
+ End Time: 2024-08-07 04:02
+ Left Offset: -9072
+ Program: Object
+ Start Time: 2024-08-06 08:30
+ End Time: 2024-08-06 10:30
+ Left Offset: -17040
+ Time slots: Array(113)
+ Grouped Programs by Channel: Object
+ Grouped Data: Object
+ Sorted Channels: Array(14)
+ Program: Object
+ Start Time: 2024-08-05 19:25
+ End Time: 2024-08-05 20:00
+ Left Offset: -23320
+ Program: Object
+ Start Time: 2024-08-05 20:00
+ End Time: 2024-08-05 21:00
+ Left Offset: -23040
+ Program: Object
+ Start Time: 2024-08-05 21:00
+ End Time: 2024-08-05 22:00
+ Left Offset: -22560
+ Program: Object
+ Start Time: 2024-08-05 22:00
+ End Time: 2024-08-05 23:00
+ Left Offset: -22080
+ Program: Object
+ Start Time: 2024-08-05 23:00
+ End Time: 2024-08-06 00:00
+ Left Offset: -21600
+ Program: Object
+ Start Time: 2024-08-06 00:00
+ End Time: 2024-08-06 01:00
+ Left Offset: -21120
+ Program: Object
+ Start Time: 2024-08-06 01:00
+ End Time: 2024-08-06 02:00
+ Left Offset: -20640
+ Program: Object
+ Start Time: 2024-08-06 04:00
+ End Time: 2024-08-06 05:00
+ Left Offset: -19200
+ Program: Object
+ Start Time: 2024-08-06 05:00
+ End Time: 2024-08-06 06:00
+ Left Offset: -18720
+ Program: Object
+ Start Time: 2024-08-06 06:00
+ End Time: 2024-08-06 07:00
+ Left Offset: -18240
+ Program: Object
+ Start Time: 2024-08-06 07:00
+ End Time: 2024-08-06 08:00
+ Left Offset: -17760
+ Program: Object
+ Start Time: 2024-08-06 08:00
+ End Time: 2024-08-06 09:00
+ Left Offset: -17280
+ Program: Object
+ Start Time: 2024-08-06 09:00
+ End Time: 2024-08-06 10:00
+ Left Offset: -16800
+ Program: Object
+ Start Time: 2024-08-06 12:00
+ End Time: 2024-08-06 13:00
+ Left Offset: -15360
+ Program: Object
+ Start Time: 2024-08-06 13:00
+ End Time: 2024-08-06 14:00
+ Left Offset: -14880
+ Program: Object
+ Start Time: 2024-08-06 15:00
+ End Time: 2024-08-06 16:00
+ Left Offset: -13920
+ Program: Object
+ Start Time: 2024-08-06 18:00
+ End Time: 2024-08-06 19:00
+ Left Offset: -12480
+ Program: Object
+ Start Time: 2024-08-06 20:00
+ End Time: 2024-08-06 21:00
+ Left Offset: -11520
+ Program: Object
+ Start Time: 2024-08-06 21:00
+ End Time: 2024-08-06 22:00
+ Left Offset: -11040
+ Program: Object
+ Start Time: 2024-08-06 22:00
+ End Time: 2024-08-06 23:00
+ Left Offset: -10560
+ Program: Object
+ Start Time: 2024-08-06 23:00
+ End Time: 2024-08-07 00:00
+ Left Offset: -10080
+ Program: Object
+ Start Time: 2024-08-07 00:00
+ End Time: 2024-08-07 01:00
+ Left Offset: -9600
+ Program: Object
+ Start Time: 2024-08-07 01:00
+ End Time: 2024-08-07 02:00
+ Left Offset: -9120
+ Program: Object
+ Start Time: 2024-08-07 04:00
+ End Time: 2024-08-07 05:00
+ Left Offset: -7680
+ Program: Object
+ Start Time: 2024-08-07 05:00
+ End Time: 2024-08-07 06:00
+ Left Offset: -7200
+ Program: Object
+ Start Time: 2024-08-07 06:00
+ End Time: 2024-08-07 07:00
+ Left Offset: -6720
+ Program: Object
+ Start Time: 2024-08-07 07:00
+ End Time: 2024-08-07 08:00
+ Left Offset: -6240
+ Program: Object
+ Start Time: 2024-08-07 08:00
+ End Time: 2024-08-07 09:00
+ Left Offset: -5760
+ Program: Object
+ Start Time: 2024-08-07 09:00
+ End Time: 2024-08-07 10:00
+ Left Offset: -5280
+ Program: Object
+ Start Time: 2024-08-07 12:00
+ End Time: 2024-08-07 13:00
+ Left Offset: -3840
+ Program: Object
+ Start Time: 2024-08-07 13:00
+ End Time: 2024-08-07 14:00
+ Left Offset: -3360
+ Program: Object
+ Start Time: 2024-08-07 14:00
+ End Time: 2024-08-07 15:00
+ Left Offset: -2880
+ Program: Object
+ Start Time: 2024-08-07 19:00
+ End Time: 2024-08-07 20:00
+ Left Offset: -480
+ Program: Object
+ Start Time: 2024-08-07 20:00
+ End Time: 2024-08-07 21:00
+ Left Offset: 0
+ Program: Object
+ Start Time: 2024-08-07 21:00
+ End Time: 2024-08-07 22:00
+ Left Offset: 480
+ Program: Object
+ Start Time: 2024-08-07 22:00
+ End Time: 2024-08-07 23:00
+ Left Offset: 960
+ Program: Object
+ Start Time: 2024-08-07 23:00
+ End Time: 2024-08-08 00:00
+ Left Offset: 1440
+ Program: Object
+ Start Time: 2024-08-08 00:00
+ End Time: 2024-08-08 01:00
+ Left Offset: 1920
+ Program: Object
+ Start Time: 2024-08-08 01:00
+ End Time: 2024-08-08 02:00
+ Left Offset: 2400
+ Program: Object
+ Start Time: 2024-08-08 04:00
+ End Time: 2024-08-08 05:00
+ Left Offset: 3840
+ Program: Object
+ Start Time: 2024-08-08 05:00
+ End Time: 2024-08-08 06:00
+ Left Offset: 4320
+ Program: Object
+ Start Time: 2024-08-08 06:00
+ End Time: 2024-08-08 07:00
+ Left Offset: 4800
+ Program: Object
+ Start Time: 2024-08-08 07:00
+ End Time: 2024-08-08 08:00
+ Left Offset: 5280
+ Program: Object
+ Start Time: 2024-08-08 08:00
+ End Time: 2024-08-08 09:00
+ Left Offset: 5760
+ Program: Object
+ Start Time: 2024-08-08 09:00
+ End Time: 2024-08-08 10:00
+ Left Offset: 6240
+ Program: Object
+ Start Time: 2024-08-08 12:00
+ End Time: 2024-08-08 13:00
+ Left Offset: 7680
+ Program: Object
+ Start Time: 2024-08-08 13:00
+ End Time: 2024-08-08 14:00
+ Left Offset: 8160
+ Program: Object
+ Start Time: 2024-08-08 14:00
+ End Time: 2024-08-08 15:00
+ Left Offset: 8640
+ Program: Object
+ Start Time: 2024-08-08 15:00
+ End Time: 2024-08-08 16:00
+ Left Offset: 9120
+ Program: Object
+ Start Time: 2024-08-05 18:00
+ End Time: 2024-08-05 19:00
+ Left Offset: -24000
+ Program: Object
+ Start Time: 2024-08-05 23:25
+ End Time: 2024-08-06 00:00
+ Left Offset: -21400
+ Program: Object
+ Start Time: 2024-08-06 00:00
+ End Time: 2024-08-06 01:00
+ Left Offset: -21120
+ Program: Object
+ Start Time: 2024-08-06 01:00
+ End Time: 2024-08-06 02:00
+ Left Offset: -20640
+ Program: Object
+ Start Time: 2024-08-06 02:00
+ End Time: 2024-08-06 03:00
+ Left Offset: -20160
+ Program: Object
+ Start Time: 2024-08-06 03:00
+ End Time: 2024-08-06 04:00
+ Left Offset: -19680
+ Program: Object
+ Start Time: 2024-08-06 04:00
+ End Time: 2024-08-06 05:00
+ Left Offset: -19200
+ Program: Object
+ Start Time: 2024-08-06 05:00
+ End Time: 2024-08-06 06:00
+ Left Offset: -18720
+ Program: Object
+ Start Time: 2024-08-06 08:00
+ End Time: 2024-08-06 09:00
+ Left Offset: -17280
+ Program: Object
+ Start Time: 2024-08-06 09:00
+ End Time: 2024-08-06 10:00
+ Left Offset: -16800
+ Program: Object
+ Start Time: 2024-08-06 10:00
+ End Time: 2024-08-06 11:00
+ Left Offset: -16320
+ Program: Object
+ Start Time: 2024-08-06 11:00
+ End Time: 2024-08-06 12:00
+ Left Offset: -15840
+ Program: Object
+ Start Time: 2024-08-06 12:00
+ End Time: 2024-08-06 13:00
+ Left Offset: -15360
+ Program: Object
+ Start Time: 2024-08-06 13:00
+ End Time: 2024-08-06 14:00
+ Left Offset: -14880
+ Program: Object
+ Start Time: 2024-08-06 16:00
+ End Time: 2024-08-06 17:00
+ Left Offset: -13440
+ Program: Object
+ Start Time: 2024-08-06 17:00
+ End Time: 2024-08-06 18:00
+ Left Offset: -12960
+ Program: Object
+ Start Time: 2024-08-06 19:00
+ End Time: 2024-08-06 20:00
+ Left Offset: -12000
+ Program: Object
+ Start Time: 2024-08-06 22:00
+ End Time: 2024-08-06 23:00
+ Left Offset: -10560
+ Program: Object
+ Start Time: 2024-08-07 00:00
+ End Time: 2024-08-07 01:00
+ Left Offset: -9600
+ Program: Object
+ Start Time: 2024-08-07 01:00
+ End Time: 2024-08-07 02:00
+ Left Offset: -9120
+ Program: Object
+ Start Time: 2024-08-07 02:00
+ End Time: 2024-08-07 03:00
+ Left Offset: -8640
+ Program: Object
+ Start Time: 2024-08-07 03:00
+ End Time: 2024-08-07 04:00
+ Left Offset: -8160
+ Program: Object
+ Start Time: 2024-08-07 04:00
+ End Time: 2024-08-07 05:00
+ Left Offset: -7680
+ Program: Object
+ Start Time: 2024-08-07 05:00
+ End Time: 2024-08-07 06:00
+ Left Offset: -7200
+ Program: Object
+ Start Time: 2024-08-07 08:00
+ End Time: 2024-08-07 09:00
+ Left Offset: -5760
+ Program: Object
+ Start Time: 2024-08-07 09:00
+ End Time: 2024-08-07 10:00
+ Left Offset: -5280
+ Program: Object
+ Start Time: 2024-08-07 10:00
+ End Time: 2024-08-07 11:00
+ Left Offset: -4800
+ Program: Object
+ Start Time: 2024-08-07 11:00
+ End Time: 2024-08-07 12:00
+ Left Offset: -4320
+ Program: Object
+ Start Time: 2024-08-07 12:00
+ End Time: 2024-08-07 13:00
+ Left Offset: -3840
+ Program: Object
+ Start Time: 2024-08-07 13:00
+ End Time: 2024-08-07 14:00
+ Left Offset: -3360
+ Program: Object
+ Start Time: 2024-08-07 16:00
+ End Time: 2024-08-07 17:00
+ Left Offset: -1920
+ Program: Object
+ Start Time: 2024-08-07 17:00
+ End Time: 2024-08-07 18:00
+ Left Offset: -1440
+ Program: Object
+ Start Time: 2024-08-07 18:00
+ End Time: 2024-08-07 19:00
+ Left Offset: -960
+ Program: Object
+ Start Time: 2024-08-07 23:00
+ End Time: 2024-08-08 00:00
+ Left Offset: 1440
+ Program: Object
+ Start Time: 2024-08-08 00:00
+ End Time: 2024-08-08 01:00
+ Left Offset: 1920
+ Program: Object
+ Start Time: 2024-08-08 01:00
+ End Time: 2024-08-08 02:00
+ Left Offset: 2400
+ Program: Object
+ Start Time: 2024-08-08 02:00
+ End Time: 2024-08-08 03:00
+ Left Offset: 2880
+ Program: Object
+ Start Time: 2024-08-08 03:00
+ End Time: 2024-08-08 04:00
+ Left Offset: 3360
+ Program: Object
+ Start Time: 2024-08-08 04:00
+ End Time: 2024-08-08 05:00
+ Left Offset: 3840
+ Program: Object
+ Start Time: 2024-08-08 05:00
+ End Time: 2024-08-08 06:00
+ Left Offset: 4320
+ Program: Object
+ Start Time: 2024-08-08 08:00
+ End Time: 2024-08-08 09:00
+ Left Offset: 5760
+ Program: Object
+ Start Time: 2024-08-08 09:00
+ End Time: 2024-08-08 10:00
+ Left Offset: 6240
+ Program: Object
+ Start Time: 2024-08-08 10:00
+ End Time: 2024-08-08 11:00
+ Left Offset: 6720
+ Program: Object
+ Start Time: 2024-08-08 11:00
+ End Time: 2024-08-08 12:00
+ Left Offset: 7200
+ Program: Object
+ Start Time: 2024-08-08 12:00
+ End Time: 2024-08-08 13:00
+ Left Offset: 7680
+ Program: Object
+ Start Time: 2024-08-08 13:00
+ End Time: 2024-08-08 14:00
+ Left Offset: 8160
+ Program: Object
+ Start Time: 2024-08-08 16:00
+ End Time: 2024-08-08 17:00
+ Left Offset: 9600
+ Program: Object
+ Start Time: 2024-08-08 17:00
+ End Time: 2024-08-08 18:00
+ Left Offset: 10080
+ Program: Object
+ Start Time: 2024-08-08 18:00
+ End Time: 2024-08-08 19:00
+ Left Offset: 10560
+ Program: Object
+ Start Time: 2024-08-08 19:00
+ End Time: 2024-08-08 20:00
+ Left Offset: 11040
+ Program: Object
+ Start Time: 2024-08-08 22:00
+ End Time: 2024-08-08 23:00
+ Left Offset: 12480
+ Program: Object
+ Start Time: 2024-08-08 23:00
+ End Time: 2024-08-09 00:00
+ Left Offset: 12960
+ Program: Object
+ Start Time: 2024-08-09 00:00
+ End Time: 2024-08-09 01:00
+ Left Offset: 13440
+ Program: Object
+ Start Time: 2024-08-09 01:00
+ End Time: 2024-08-09 02:00
+ Left Offset: 13920
+ Program: Object
+ Start Time: 2024-08-09 02:00
+ End Time: 2024-08-09 03:00
+ Left Offset: 14400
+ Program: Object
+ Start Time: 2024-08-09 03:00
+ End Time: 2024-08-09 04:00
+ Left Offset: 14880
+ Program: Object
+ Start Time: 2024-08-09 04:00
+ End Time: 2024-08-09 05:00
+ Left Offset: 15360
+ Program: Object
+ Start Time: 2024-08-09 05:00
+ End Time: 2024-08-09 06:00
+ Left Offset: 15840
+ Program: Object
+ Start Time: 2024-08-09 08:00
+ End Time: 2024-08-09 09:00
+ Left Offset: 17280
+ Program: Object
+ Start Time: 2024-08-09 09:00
+ End Time: 2024-08-09 10:00
+ Left Offset: 17760
+ Program: Object
+ Start Time: 2024-08-09 10:00
+ End Time: 2024-08-09 11:00
+ Left Offset: 18240
+ Program: Object
+ Start Time: 2024-08-09 11:00
+ End Time: 2024-08-09 12:00
+ Left Offset: 18720
+ Program: Object
+ Start Time: 2024-08-09 12:00
+ End Time: 2024-08-09 13:00
+ Left Offset: 19200
+ Program: Object
+ Start Time: 2024-08-09 13:00
+ End Time: 2024-08-09 14:00
+ Left Offset: 19680
+ Program: Object
+ Start Time: 2024-08-09 22:00
+ End Time: 2024-08-09 23:00
+ Left Offset: 24000
+ Program: Object
+ Start Time: 2024-08-05 18:00
+ End Time: 2024-08-05 19:00
+ Left Offset: -24000
+ Program: Object
+ Start Time: 2024-08-05 23:25
+ End Time: 2024-08-06 00:00
+ Left Offset: -21400
+ Program: Object
+ Start Time: 2024-08-06 00:00
+ End Time: 2024-08-06 01:00
+ Left Offset: -21120
+ Program: Object
+ Start Time: 2024-08-06 01:00
+ End Time: 2024-08-06 02:00
+ Left Offset: -20640
+ Program: Object
+ Start Time: 2024-08-06 02:00
+ End Time: 2024-08-06 03:00
+ Left Offset: -20160
+ Program: Object
+ Start Time: 2024-08-06 03:00
+ End Time: 2024-08-06 04:00
+ Left Offset: -19680
+ Program: Object
+ Start Time: 2024-08-06 04:00
+ End Time: 2024-08-06 05:00
+ Left Offset: -19200
+ Program: Object
+ Start Time: 2024-08-06 05:00
+ End Time: 2024-08-06 06:00
+ Left Offset: -18720
+ Program: Object
+ Start Time: 2024-08-06 08:00
+ End Time: 2024-08-06 09:00
+ Left Offset: -17280
+ Program: Object
+ Start Time: 2024-08-06 09:00
+ End Time: 2024-08-06 10:00
+ Left Offset: -16800
+ Program: Object
+ Start Time: 2024-08-06 10:00
+ End Time: 2024-08-06 11:00
+ Left Offset: -16320
+ Program: Object
+ Start Time: 2024-08-06 11:00
+ End Time: 2024-08-06 12:00
+ Left Offset: -15840
+ Program: Object
+ Start Time: 2024-08-06 12:00
+ End Time: 2024-08-06 13:00
+ Left Offset: -15360
+ Program: Object
+ Start Time: 2024-08-06 13:00
+ End Time: 2024-08-06 14:00
+ Left Offset: -14880
+ Program: Object
+ Start Time: 2024-08-06 16:00
+ End Time: 2024-08-06 17:00
+ Left Offset: -13440
+ Program: Object
+ Start Time: 2024-08-06 17:00
+ End Time: 2024-08-06 18:00
+ Left Offset: -12960
+ Program: Object
+ Start Time: 2024-08-06 19:00
+ End Time: 2024-08-06 20:00
+ Left Offset: -12000
+ Program: Object
+ Start Time: 2024-08-06 22:00
+ End Time: 2024-08-06 23:00
+ Left Offset: -10560
+ Program: Object
+ Start Time: 2024-08-07 00:00
+ End Time: 2024-08-07 01:00
+ Left Offset: -9600
+ Program: Object
+ Start Time: 2024-08-07 01:00
+ End Time: 2024-08-07 02:00
+ Left Offset: -9120
+ Program: Object
+ Start Time: 2024-08-07 02:00
+ End Time: 2024-08-07 03:00
+ Left Offset: -8640
+ Program: Object
+ Start Time: 2024-08-07 03:00
+ End Time: 2024-08-07 04:00
+ Left Offset: -8160
+ Program: Object
+ Start Time: 2024-08-07 04:00
+ End Time: 2024-08-07 05:00
+ Left Offset: -7680
+ Program: Object
+ Start Time: 2024-08-07 05:00
+ End Time: 2024-08-07 06:00
+ Left Offset: -7200
+ Program: Object
+ Start Time: 2024-08-07 08:00
+ End Time: 2024-08-07 09:00
+ Left Offset: -5760
+ Program: Object
+ Start Time: 2024-08-07 09:00
+ End Time: 2024-08-07 10:00
+ Left Offset: -5280
+ Program: Object
+ Start Time: 2024-08-07 10:00
+ End Time: 2024-08-07 11:00
+ Left Offset: -4800
+ Program: Object
+ Start Time: 2024-08-07 11:00
+ End Time: 2024-08-07 12:00
+ Left Offset: -4320
+ Program: Object
+ Start Time: 2024-08-07 12:00
+ End Time: 2024-08-07 13:00
+ Left Offset: -3840
+ Program: Object
+ Start Time: 2024-08-07 13:00
+ End Time: 2024-08-07 14:00
+ Left Offset: -3360
+ Program: Object
+ Start Time: 2024-08-07 16:00
+ End Time: 2024-08-07 17:00
+ Left Offset: -1920
+ Program: Object
+ Start Time: 2024-08-07 17:00
+ End Time: 2024-08-07 18:00
+ Left Offset: -1440
+ Program: Object
+ Start Time: 2024-08-07 18:00
+ End Time: 2024-08-07 19:00
+ Left Offset: -960
+ Program: Object
+ Start Time: 2024-08-07 23:00
+ End Time: 2024-08-08 00:00
+ Left Offset: 1440
+ Program: Object
+ Start Time: 2024-08-08 00:00
+ End Time: 2024-08-08 01:00
+ Left Offset: 1920
+ Program: Object
+ Start Time: 2024-08-08 01:00
+ End Time: 2024-08-08 02:00
+ Left Offset: 2400
+ Program: Object
+ Start Time: 2024-08-08 02:00
+ End Time: 2024-08-08 03:00
+ Left Offset: 2880
+ Program: Object
+ Start Time: 2024-08-08 03:00
+ End Time: 2024-08-08 04:00
+ Left Offset: 3360
+ Program: Object
+ Start Time: 2024-08-08 04:00
+ End Time: 2024-08-08 05:00
+ Left Offset: 3840
+ Program: Object
+ Start Time: 2024-08-08 05:00
+ End Time: 2024-08-08 06:00
+ Left Offset: 4320
+ Program: Object
+ Start Time: 2024-08-08 08:00
+ End Time: 2024-08-08 09:00
+ Left Offset: 5760
+ Program: Object
+ Start Time: 2024-08-08 09:00
+ End Time: 2024-08-08 10:00
+ Left Offset: 6240
+ Program: Object
+ Start Time: 2024-08-08 10:00
+ End Time: 2024-08-08 11:00
+ Left Offset: 6720
+ Program: Object
+ Start Time: 2024-08-08 11:00
+ End Time: 2024-08-08 12:00
+ Left Offset: 7200
+ Program: Object
+ Start Time: 2024-08-08 12:00
+ End Time: 2024-08-08 13:00
+ Left Offset: 7680
+ Program: Object
+ Start Time: 2024-08-08 13:00
+ End Time: 2024-08-08 14:00
+ Left Offset: 8160
+ Program: Object
+ Start Time: 2024-08-08 16:00
+ End Time: 2024-08-08 17:00
+ Left Offset: 9600
+ Program: Object
+ Start Time: 2024-08-08 17:00
+ End Time: 2024-08-08 18:00
+ Left Offset: 10080
+ Program: Object
+ Start Time: 2024-08-08 18:00
+ End Time: 2024-08-08 19:00
+ Left Offset: 10560
+ Program: Object
+ Start Time: 2024-08-08 19:00
+ End Time: 2024-08-08 20:00
+ Left Offset: 11040
+ Program: Object
+ Start Time: 2024-08-08 22:00
+ End Time: 2024-08-08 23:00
+ Left Offset: 12480
+ Program: Object
+ Start Time: 2024-08-08 23:00
+ End Time: 2024-08-09 00:00
+ Left Offset: 12960
+ Program: Object
+ Start Time: 2024-08-09 00:00
+ End Time: 2024-08-09 01:00
+ Left Offset: 13440
+ Program: Object
+ Start Time: 2024-08-09 01:00
+ End Time: 2024-08-09 02:00
+ Left Offset: 13920
+ Program: Object
+ Start Time: 2024-08-09 02:00
+ End Time: 2024-08-09 03:00
+ Left Offset: 14400
+ Program: Object
+ Start Time: 2024-08-09 03:00
+ End Time: 2024-08-09 04:00
+ Left Offset: 14880
+ Program: Object
+ Start Time: 2024-08-09 04:00
+ End Time: 2024-08-09 05:00
+ Left Offset: 15360
+ Program: Object
+ Start Time: 2024-08-09 05:00
+ End Time: 2024-08-09 06:00
+ Left Offset: 15840
+ Program: Object
+ Start Time: 2024-08-09 08:00
+ End Time: 2024-08-09 09:00
+ Left Offset: 17280
+ Program: Object
+ Start Time: 2024-08-09 09:00
+ End Time: 2024-08-09 10:00
+ Left Offset: 17760
+ Program: Object
+ Start Time: 2024-08-09 10:00
+ End Time: 2024-08-09 11:00
+ Left Offset: 18240
+ Program: Object
+ Start Time: 2024-08-09 11:00
+ End Time: 2024-08-09 12:00
+ Left Offset: 18720
+ Program: Object
+ Start Time: 2024-08-09 12:00
+ End Time: 2024-08-09 13:00
+ Left Offset: 19200
+ Program: Object
+ Start Time: 2024-08-09 13:00
+ End Time: 2024-08-09 14:00
+ Left Offset: 19680
+ Program: Object
+ Start Time: 2024-08-09 22:00
+ End Time: 2024-08-09 23:00
+ Left Offset: 24000
+ Program: Object
+ Start Time: 2024-08-06 16:34
+ End Time: 2024-08-06 17:36
+ Left Offset: -13168
+ Program: Object
+ Start Time: 2024-08-07 16:34
+ End Time: 2024-08-07 17:36
+ Left Offset: -1648
+ Program: Object
+ Start Time: 2024-08-05 23:34
+ End Time: 2024-08-06 00:37
+ Left Offset: -21328
+ Program: Object
+ Start Time: 2024-08-06 23:34
+ End Time: 2024-08-07 00:37
+ Left Offset: -9808
+ Program: Object
+ Start Time: 2024-08-07 23:34
+ End Time: 2024-08-08 00:37
+ Left Offset: 1712
+ Program: Object
+ Start Time: 2024-08-08 23:34
+ End Time: 2024-08-09 00:37
+ Left Offset: 13232
+ Program: Object
+ Start Time: 2024-08-09 23:34
+ End Time: 2024-08-10 00:37
+ Left Offset: 24752
+ Program: Object
+ Start Time: 2024-08-05 23:34
+ End Time: 2024-08-06 00:37
+ Left Offset: -21328
+ Program: Object
+ Start Time: 2024-08-06 23:34
+ End Time: 2024-08-07 00:37
+ Left Offset: -9808
+ Program: Object
+ Start Time: 2024-08-07 23:34
+ End Time: 2024-08-08 00:37
+ Left Offset: 1712
+ Program: Object
+ Start Time: 2024-08-08 23:34
+ End Time: 2024-08-09 00:37
+ Left Offset: 13232
+ Program: Object
+ Start Time: 2024-08-09 23:34
+ End Time: 2024-08-10 00:37
+ Left Offset: 24752
+ Program: Object
+ Start Time: 2024-08-05 20:34
+ End Time: 2024-08-05 21:36
+ Left Offset: -22768
+ Program: Object
+ Start Time: 2024-08-06 20:34
+ End Time: 2024-08-06 21:36
+ Left Offset: -11248
+ Program: Object
+ Start Time: 2024-08-07 20:34
+ End Time: 2024-08-07 21:36
+ Left Offset: 272
+ Program: Object
+ Start Time: 2024-08-08 20:34
+ End Time: 2024-08-08 21:36
+ Left Offset: 11792
+ Program: Object
+ Start Time: 2024-08-09 20:34
+ End Time: 2024-08-09 21:37
+ Left Offset: 23312
+ Program: Object
+ Start Time: 2024-08-09 19:15
+ End Time: 2024-08-09 20:05
+ Left Offset: 22680
+ Program: Object
+ Start Time: 2024-08-09 20:05
+ End Time: 2024-08-09 21:00
+ Left Offset: 23080
+ Program: Object
+ Start Time: 2024-08-09 16:15
+ End Time: 2024-08-09 17:05
+ Left Offset: 21240
+ Program: Object
+ Start Time: 2024-08-09 17:05
+ End Time: 2024-08-09 18:00
+ Left Offset: 21640
+ Program: Object
+ Start Time: 2024-08-05 19:33
+ End Time: 2024-08-05 20:01
+ Left Offset: -23256
+ Program: Object
+ Start Time: 2024-08-06 19:33
+ End Time: 2024-08-06 20:01
+EPGGrid.js:234 Left Offset: -11736
+EPGGrid.js:231 Program: Object
+EPGGrid.js:232 Start Time: 2024-08-05 17:15
+EPGGrid.js:233 End Time: 2024-08-05 20:17
+EPGGrid.js:234 Left Offset: -24360
+EPGGrid.js:231 Program: Object
+EPGGrid.js:232 Start Time: 2024-08-05 20:17
+EPGGrid.js:233 End Time: 2024-08-05 23:34
+EPGGrid.js:234 Left Offset: -22904
+EPGGrid.js:231 Program: Object
+EPGGrid.js:232 Start Time: 2024-08-06 10:59
+EPGGrid.js:233 End Time: 2024-08-06 13:57
+EPGGrid.js:234 Left Offset: -15848
+EPGGrid.js:231 Program: Object
+EPGGrid.js:232 Start Time: 2024-08-06 13:57
+EPGGrid.js:233 End Time: 2024-08-06 17:00
+EPGGrid.js:234 Left Offset: -14424
+EPGGrid.js:231 Program: Object
+EPGGrid.js:232 Start Time: 2024-08-06 22:06
+EPGGrid.js:233 End Time: 2024-08-07 01:02
+EPGGrid.js:234 Left Offset: -10512
+EPGGrid.js:231 Program: Object
+EPGGrid.js:232 Start Time: 2024-08-05 17:15
+EPGGrid.js:233 End Time: 2024-08-05 20:17
+EPGGrid.js:234 Left Offset: -24360
+EPGGrid.js:231 Program: Object
+EPGGrid.js:232 Start Time: 2024-08-05 20:17
+EPGGrid.js:233 End Time: 2024-08-05 23:34
+EPGGrid.js:234 Left Offset: -22904
+EPGGrid.js:231 Program: Object
+EPGGrid.js:232 Start Time: 2024-08-06 10:59
+EPGGrid.js:233 End Time: 2024-08-06 13:57
+EPGGrid.js:234 Left Offset: -15848
+EPGGrid.js:231 Program: Object
+EPGGrid.js:232 Start Time: 2024-08-06 13:57
+EPGGrid.js:233 End Time: 2024-08-06 17:00
+EPGGrid.js:234 Left Offset: -14424
+EPGGrid.js:231 Program: Object
+EPGGrid.js:232 Start Time: 2024-08-06 22:06
+EPGGrid.js:233 End Time: 2024-08-07 01:02
+EPGGrid.js:234 Left Offset: -10512
+EPGGrid.js:231 Program: Object
+EPGGrid.js:232 Start Time: 2024-08-05 20:15
+EPGGrid.js:233 End Time: 2024-08-05 23:17
+EPGGrid.js:234 Left Offset: -22920
+EPGGrid.js:231 Program: Object
+EPGGrid.js:232 Start Time: 2024-08-05 23:17
+EPGGrid.js:233 End Time: 2024-08-06 02:34
+EPGGrid.js:234 Left Offset: -21464
+EPGGrid.js:231 Program: Object
+EPGGrid.js:232 Start Time: 2024-08-06 13:59
+EPGGrid.js:233 End Time: 2024-08-06 16:57
+EPGGrid.js:234 Left Offset: -14408
+EPGGrid.js:231 Program: Object
+EPGGrid.js:232 Start Time: 2024-08-06 16:57
+EPGGrid.js:233 End Time: 2024-08-06 20:00
+EPGGrid.js:234 Left Offset: -12984
+EPGGrid.js:231 Program: Object
+EPGGrid.js:232 Start Time: 2024-08-07 01:06
+EPGGrid.js:233 End Time: 2024-08-07 04:02
+EPGGrid.js:234 Left Offset: -9072
+EPGGrid.js:231 Program: Object
+EPGGrid.js:232 Start Time: 2024-08-06 08:30
+EPGGrid.js:233 End Time: 2024-08-06 10:30
+EPGGrid.js:234 Left Offset: -17040

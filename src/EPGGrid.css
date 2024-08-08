@@ -19,3 +19,12 @@
     line-height: 1.2; /* Adjust line-height as needed */
     height: 100%;
 }
+
+/* Ensure the sticky column remains sticky throughout horizontal scrolling */
+.sticky-column {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    z-index: 11;
+    background-color: inherit;
+}

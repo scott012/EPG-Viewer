@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Paper, Typography, Dialog, DialogTitle, DialogContent, DialogContentText, DialogActions, Button } from '@mui/material';
+import React, { useEffect, useState, useRef } from 'react';
+import { Paper, Typography, Dialog, DialogTitle, DialogContent, DialogContentText, DialogActions, Button, CircularProgress, Box, TextField } from '@mui/material';
 import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc';
 import timezone from 'dayjs/plugin/timezone';
@@ -7,29 +7,6 @@ import './EPGGrid.css'; // Import CSS file for custom styles
 
 dayjs.extend(utc);
 dayjs.extend(timezone);
-
-function generateTimeSlots(startTime, endTime) {
-    const slots = [];
-    let currentTime = startTime;
-    while (currentTime.isBefore(endTime) || currentTime.isSame(endTime)) {
-        slots.push(currentTime.format('YYYY-MM-DD HH:mm'));
-        currentTime = currentTime.add(30, 'minute');
-    }
-    return slots;
-}
-
-function groupProgramsByChannel(data) {
-    const grouped = {};
-    Object.keys(data).forEach(date => {
-        data[date].forEach(program => {
-            if (!grouped[program.channel]) {
-                grouped[program.channel] = [];
-            }
-            grouped[program.channel].push(program);
-        });
-    });
-    return grouped;
-}
 
 const parseXMLDate = (xmlDate) => {
     const year = parseInt(xmlDate.slice(0, 4), 10);
@@ -52,30 +29,70 @@ const parseXMLDate = (xmlDate) => {
     return dayjs(date).tz('America/Vancouver');
 };
 
+function generateTimeSlots(startTime, endTime) {
+    const slots = [];
+    let currentTime = startTime;
+    while (currentTime.isBefore(endTime) || currentTime.isSame(endTime)) {
+        slots.push(currentTime.format('YYYY-MM-DD HH:mm'));
+        currentTime = currentTime.add(30, 'minute');
+    }
+    return slots;
+}
+
+function groupProgramsByChannel(data) {
+    const grouped = {};
+    Object.keys(data).forEach(date => {
+        data[date].forEach(program => {
+            if (!grouped[program.channel]) {
+                grouped[program.channel] = [];
+            }
+            grouped[program.channel].push(program);
+        });
+    });
+    console.log('Grouped Programs by Channel:', grouped); // Add logging
+    return grouped;
+}
+
 function EPGGrid({ data }) {
     const [currentTimePosition, setCurrentTimePosition] = useState(0);
     const [selectedProgram, setSelectedProgram] = useState(null);
     const [modalOpen, setModalOpen] = useState(false);
+    const [loading, setLoading] = useState(true);
+    const [searchQuery, setSearchQuery] = useState('');
+    const [filteredData, setFilteredData] = useState(data); // Initialize filteredData state
     const slotWidth = 240; // Width for each 30-minute slot
+    const gridRef = useRef(null);
+    const latestEndTimeRef = useRef(dayjs().tz('America/Vancouver').subtract(1, 'hour').startOf('hour'));
 
     // Calculate start and end times dynamically
     const now = dayjs().tz('America/Vancouver').subtract(1, 'hour').startOf('hour');
-    let latestEndTime = now;
 
-    Object.keys(data).forEach(date => {
-        data[date].forEach(program => {
-            const endTime = parseXMLDate(program.endTime);
-            if (endTime.isAfter(latestEndTime)) {
-                latestEndTime = endTime;
-            }
+    useEffect(() => {
+        console.log('Starting data fetch simulation...');
+        // Simulate data fetching
+        setTimeout(() => {
+            setLoading(false);
+            console.log('Data fetch completed');
+        }, 2000); // Simulate a 2-second load time
+
+        Object.keys(data).forEach(date => {
+            data[date].forEach(program => {
+                const endTime = parseXMLDate(program.endTime);
+                if (endTime.isAfter(latestEndTimeRef.current)) {
+                    latestEndTimeRef.current = endTime;
+                }
+            });
         });
-    });
 
-    const timeSlots = generateTimeSlots(now, latestEndTime);
+        console.log('Processed data:', data);
+    }, [data]);
+
+    const timeSlots = generateTimeSlots(now, latestEndTimeRef.current);
+    console.log('Time slots:', timeSlots);
 
     useEffect(() => {
         const updateCurrentTimePosition = () => {
-            const currentTimeSlotIndex = now.diff(dayjs().tz('America/Vancouver').startOf('day'), 'minute') / 30;
+            const currentTimeSlotIndex = dayjs().tz('America/Vancouver').diff(now, 'minute') / 30;
             const position = currentTimeSlotIndex * slotWidth;
             setCurrentTimePosition(position);
         };
@@ -85,6 +102,29 @@ function EPGGrid({ data }) {
 
         return () => clearInterval(interval);
     }, [now, slotWidth]);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (gridRef.current) {
+                const currentTimeLine = document.getElementById('current-time-line');
+                currentTimeLine.style.top = `${gridRef.current.scrollTop}px`;
+                currentTimeLine.style.height = `${gridRef.current.scrollHeight}px`;
+            }
+        };
+
+        const gridElement = gridRef.current;
+
+        if (gridElement) {
+            gridElement.addEventListener('scroll', handleScroll);
+            handleScroll(); // Initial call to set height correctly
+        }
+
+        return () => {
+            if (gridElement) {
+                gridElement.removeEventListener('scroll', handleScroll);
+            }
+        };
+    }, []);
 
     const handleProgramClick = (program) => {
         setSelectedProgram(program);
@@ -96,18 +136,53 @@ function EPGGrid({ data }) {
         setSelectedProgram(null);
     };
 
-    const groupedData = groupProgramsByChannel(data);
+    const handleSearch = (event) => {
+        setSearchQuery(event.target.value);
+        const query = event.target.value.toLowerCase();
+
+        const newFilteredData = {};
+        Object.keys(data).forEach(date => {
+            const filteredPrograms = data[date].filter(program =>
+                program.title.toLowerCase().includes(query)
+            );
+            if (filteredPrograms.length > 0) {
+                newFilteredData[date] = filteredPrograms;
+            }
+        });
+
+        setFilteredData(newFilteredData);
+    };
+
+    const groupedData = searchQuery ? groupProgramsByChannel(filteredData) : groupProgramsByChannel(data);
     const sortedChannels = Object.keys(groupedData).sort();
+
+    console.log('Grouped Data:', groupedData);
+    console.log('Sorted Channels:', sortedChannels);
+
+    if (loading) {
+        return (
+            <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+                <CircularProgress />
+            </Box>
+        );
+    }
 
     return (
         <div style={{ height: '100vh', overflow: 'hidden', display: 'flex', flexDirection: 'column', backgroundColor: '#303030' }}>
-            <div style={{ flex: '0 1 auto', padding: '20px', borderBottom: '2px solid #505050', display: 'flex', justifyContent: 'center', backgroundColor: '#404040' }}>
+            <div style={{ flex: '0 1 auto', padding: '20px', borderBottom: '2px solid #505050', display: 'flex', justifyContent: 'space-between', alignItems: 'center', backgroundColor: '#404040' }}>
                 <Typography variant="h6" align="center" style={{ color: '#ffffff' }}>EPG Guide</Typography>
+                <TextField
+                    variant="outlined"
+                    placeholder="Search Programs"
+                    value={searchQuery}
+                    onChange={handleSearch}
+                    style={{ backgroundColor: '#ffffff', borderRadius: '4px' }}
+                />
             </div>
-            <div style={{ flex: '1 1 auto', overflow: 'auto' }}>
+            <div id="epg-grid-container" ref={gridRef} style={{ flex: '1 1 auto', overflow: 'auto', position: 'relative' }}>
                 <div style={{ position: 'sticky', top: 0, zIndex: 10, backgroundColor: '#404040' }}>
                     <div style={{ display: 'flex', borderBottom: '2px solid #505050', backgroundColor: '#404040' }}>
-                        <div style={{ minWidth: '200px', borderRight: '2px solid #505050', backgroundColor: '#404040', position: 'sticky', left: 0, zIndex: 11 }}></div>
+                        <div className="sticky-column" style={{ minWidth: '200px', borderRight: '2px solid #505050', backgroundColor: '#404040', position: 'sticky', left: 0, zIndex: 11 }}></div>
                         <div style={{ display: 'flex', minWidth: `${timeSlots.length * slotWidth}px`, backgroundColor: '#404040' }}>
                             {timeSlots.map((time, idx) => (
                                 <div key={idx} style={{ width: `${slotWidth}px`, textAlign: 'center', color: '#ffffff' }}>
@@ -117,7 +192,7 @@ function EPGGrid({ data }) {
                         </div>
                     </div>
                     <div style={{ display: 'flex', borderBottom: '2px solid #505050', backgroundColor: '#404040' }}>
-                        <div style={{ minWidth: '200px', borderRight: '2px solid #505050', backgroundColor: '#404040', position: 'sticky', left: 0, zIndex: 11 }}></div>
+                        <div className="sticky-column" style={{ minWidth: '200px', borderRight: '2px solid #505050', backgroundColor: '#404040', position: 'sticky', left: 0, zIndex: 11 }}></div>
                         <div style={{ display: 'flex', minWidth: `${timeSlots.length * slotWidth}px`, backgroundColor: '#404040' }}>
                             {timeSlots.map((time, idx) => (
                                 <div key={idx} style={{ width: `${slotWidth}px`, textAlign: 'center', color: '#ffffff' }}>
@@ -127,9 +202,10 @@ function EPGGrid({ data }) {
                         </div>
                     </div>
                 </div>
+                <div id="current-time-line" style={{ position: 'absolute', top: 0, left: `${currentTimePosition}px`, width: '2px', backgroundColor: 'red', zIndex: 12 }} />
                 {sortedChannels.map((channel, index) => (
                     <div key={index} style={{ display: 'flex', borderBottom: '2px solid #505050' }}>
-                        <div style={{ minWidth: '200px', borderRight: '2px solid #505050', backgroundColor: '#505050', position: 'sticky', left: 0, zIndex: 10 }}>
+                        <div className="sticky-column" style={{ minWidth: '200px', borderRight: '2px solid #505050', backgroundColor: '#505050', position: 'sticky', left: 0, zIndex: 11 }}>
                             <Paper elevation={3} style={{ padding: '16px', backgroundColor: '#404040' }}>
                                 <Typography
                                     variant="h6"
@@ -153,6 +229,11 @@ function EPGGrid({ data }) {
                                 const durationInSlots = durationInMinutes / 30;
                                 const startSlotIndex = startTime.diff(now, 'minute') / 30;
                                 const leftOffset = startSlotIndex * slotWidth;
+
+                                console.log('Program:', program);
+                                console.log('Start Time:', startTime.format('YYYY-MM-DD HH:mm'));
+                                console.log('End Time:', endTime.format('YYYY-MM-DD HH:mm'));
+                                console.log('Left Offset:', leftOffset);
 
                                 return (
                                     <div
